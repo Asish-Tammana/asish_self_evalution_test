@@ -1,0 +1,17 @@
+.tab-item {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.active-class {
+  color: #2563eb;
+}
+
+.inactive-class {
+  color: #7b8794;
+}

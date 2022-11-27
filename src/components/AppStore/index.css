@@ -1,0 +1,44 @@
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  text-align: center;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  border: 1px solid #1e293b;
+  border-radius: 3px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-tag {
+  padding: 5px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+
+.search-icon {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.tab-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}

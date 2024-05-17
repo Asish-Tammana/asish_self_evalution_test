@@ -1,10 +1,10 @@
 .bg-container {
-  background-image: linear-gradient(#fff1eb, #ace0f9);
-  text-align: center;
+  background-image: linear-gradient(#fff1eb, orange);
   padding: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
 }
 
 .input-container {
@@ -23,6 +23,12 @@
   outline: none;
 }
 
+.search-icon-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
 .search-icon {
   width: 30px;
   margin-left: 20px;
@@ -32,7 +38,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 20%;
+  align-items: center;
 }
 
 .app-container {
@@ -40,5 +46,5 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
 }

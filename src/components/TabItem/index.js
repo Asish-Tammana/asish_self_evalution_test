@@ -1,24 +1,16 @@
 import './index.css'
 
 const TabItem = props => {
-  const {details, changeActiveState, activeState} = props
-  const {tabId, displayText} = details
-
-  const isActive = activeState === tabId
-
-  const highlightClass = isActive ? 'active-class' : 'inactive-class'
+  const {details, updateSearchInput} = props
+  const {displayText} = details
 
   const changeState = () => {
-    changeActiveState(tabId)
+    updateSearchInput(displayText)
   }
 
   return (
     <li type="none">
-      <button
-        type="button"
-        className={`tab-item ${highlightClass} `}
-        onClick={changeState}
-      >
+      <button type="button" className="tab-item" onClick={changeState}>
         {displayText}
       </button>
     </li>
